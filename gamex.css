@@ -1,0 +1,218 @@
+body{
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+}
+
+header{
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left{
+    width: 700px;
+}
+
+header .left h1{
+    font-size: 80px;
+}
+
+header .left h1 span{
+    color: #249ea0;
+}
+
+header .left p{
+    margin: 40px 0;
+    color: black;
+}
+
+header img{
+    width: 800px;
+    height: 300px;
+}
+
+#ismerteto{
+    text-align: center;
+    height: 200px;
+    margin: 30px;
+    border: 10px;
+}
+
+footer {
+    color: black;
+    background-color: #249ea0;
+    height: 50px;
+    text-align: center;
+}
+
+.k1ep {
+    background: url('banner1.png') no-repeat center center/cover;
+}
+
+.k2ep {
+    background: url('banner2.png') no-repeat center center/cover;
+}
+
+#lila {
+    margin: 100px;
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+    height: 300px;
+}
+
+#kek {
+    margin: 100px;
+    border: 10px;
+    padding: 50px;
+    text-align: center;
+    width: 1000px;
+    height: 300px;
+}
+
+#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#uzenofel {
+    margin: 50px;
+    border: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #249ea0;
+    font-size: 20px;
+}
+
+nav a.logo{
+    font-size: 40px;
+    color: black;
+    font-weight: 600; 
+}
+
+nav .login button{
+    padding: 8px 14px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: #249ea0;
+    color: black;
+}
+
+nav .login button:hover{
+    background-color: orange;
+    color: black;
+    border-radius: 4px;
+}
+
+
+.gmb2 button{
+    padding: 8px 14px;
+    border: none;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: #000;
+    color: #fff;
+}
+
+.gmb2 button:hover{
+    background-color: orange;
+    color: #000;
+    border-radius: 4px;
+}
+
+h2.separator{
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.fellep{
+    padding: 0 80px;
+    margin: 50px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fellep .item,
+.egyebek .item{
+    padding: 20px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.fellep .item:hover, 
+.egyebek .item:hover{
+    box-shadow: none;
+}
+
+.fellep .item .header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fellep .item .header h5{
+    font-size: 17px;
+}
+
+.fellep .item p{
+    margin-top: 10px;
+    padding: 0 4px;
+}
+
+.egyebek{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.egyebek .item img{
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.egyebek .item .info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #249ea0;
+}
+
+.egyebek .item .info h5{
+    font-size: 18px;
+}
+
