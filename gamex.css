@@ -34,8 +34,8 @@ header .left p{
 }
 
 header img{
-    width: 800px;
-    height: 700px;
+    width: 650px;
+    height: 550px;
 }
 
 #ismerteto{
@@ -222,9 +222,8 @@ h2.separator{
 
 #program{
     margin: 20px;
-    margin-left: 500px;
+    margin-left: 420px;
     padding: 20px;
-    align-items: center;
     height: 1200px;
     width: 1000px;
 }
@@ -241,7 +240,7 @@ h2.separator{
 #table th, td {
     border: 2px solid lightblue;
     border-radius: 10px;
-  }
+}
 
 #table th, td{
     border-color: lightblue;
