@@ -225,26 +225,25 @@ h2.separator{
     margin-left: 500px;
     padding: 20px;
     align-items: center;
-    height: 1000px;
-    width: 800px;
+    height: 1200px;
+    width: 1000px;
 }
 
 .fill{
     margin: 50px;
-    background-color: lightblue;
 }
 
-table{
+#table{
     margin: 20px;
     margin-left: 500px;
 }
 
-table, th, td {
-    border: 3px solid lightblue;
+#table th, td {
+    border: 2px solid lightblue;
     border-radius: 10px;
   }
 
-th, td{
+#table th, td{
     border-color: lightblue;
     padding: 5px;
 }
