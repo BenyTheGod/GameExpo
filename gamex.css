@@ -197,7 +197,6 @@ h2.separator{
 
 .egyebek{
     padding: 20px 0;
-    margin: 10px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -233,4 +232,19 @@ h2.separator{
 .fill{
     margin: 50px;
     background-color: lightblue;
+}
+
+table{
+    margin: 20px;
+    margin-left: 500px;
+}
+
+table, th, td {
+    border: 3px solid lightblue;
+    border-radius: 10px;
+  }
+
+th, td{
+    border-color: lightblue;
+    padding: 5px;
 }
