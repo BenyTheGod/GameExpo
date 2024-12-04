@@ -1,7 +1,11 @@
 body{
     text-decoration: none;
-    background-color: orange;
+    background-color: white;
     color: black;
+}
+
+h2{
+    text-align: center;
 }
 
 header{
@@ -21,7 +25,7 @@ header .left h1{
 }
 
 header .left h1 span{
-    color: #249ea0;
+    color: lightblue;
 }
 
 header .left p{
@@ -31,7 +35,7 @@ header .left p{
 
 header img{
     width: 800px;
-    height: 300px;
+    height: 700px;
 }
 
 #ismerteto{
@@ -43,7 +47,7 @@ header img{
 
 footer {
     color: black;
-    background-color: #249ea0;
+    background-color: lightblue;
     height: 50px;
     text-align: center;
 }
@@ -104,7 +108,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    background-color: #249ea0;
+    background-color: lightblue;
     font-size: 20px;
 }
 
@@ -120,12 +124,12 @@ nav .login button{
     margin-right: 14px;
     cursor: pointer;
     background-color: transparent;
-    background-color: #249ea0;
+    background-color: lightblue;
     color: black;
 }
 
 nav .login button:hover{
-    background-color: orange;
+    background-color: lightblue;
     color: black;
     border-radius: 4px;
 }
@@ -143,7 +147,7 @@ nav .login button:hover{
 }
 
 .gmb2 button:hover{
-    background-color: orange;
+    background-color: lightblue;
     color: #000;
     border-radius: 4px;
 }
@@ -155,17 +159,17 @@ h2.separator{
 }
 
 .fellep{
-    padding: 0 80px;
-    margin: 50px 0 80px;
+    padding: 60px;
+    margin: 10px 0 10px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
 }
 
 .fellep .item,
 .egyebek .item{
     padding: 20px;
-    background: white;
+    background: lightblue;
     border-radius: 18px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -192,16 +196,17 @@ h2.separator{
 }
 
 .egyebek{
-    padding: 40px 0;
+    padding: 20px 0;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
 .egyebek .item img{
-    width: 280px;
-    height: 280px;
-    border-radius: 18px;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
 }
 
 .egyebek .item .info{
@@ -209,10 +214,23 @@ h2.separator{
     align-items: flex-end;
     justify-content: space-between;
     padding: 12px 0;
-    border-bottom: 1px solid #249ea0;
+    border-bottom: 1px solid lightblue;
 }
 
 .egyebek .item .info h5{
     font-size: 18px;
 }
 
+#program{
+    margin: 20px;
+    margin-left: 500px;
+    padding: 20px;
+    align-items: center;
+    height: 1000px;
+    width: 800px;
+}
+
+.fill{
+    margin: 50px;
+    background-color: lightblue;
+}
